@@ -31,7 +31,6 @@ if (brittanisAge < amysAge){console.log (`Amy is older`)
   } else if (brittanisAge === amysAge){console.log (`They are the same age!`)
 } else {console.log (`brittani is older`)}
 
-
 ////////// PROBLEM 3 //////////
 
 /*
@@ -44,7 +43,6 @@ if (brittanisBirthYear === amysBirthYear) {
 } else {
   console.log('Amy and Brittani were not born in the same year.')
 }
-
 
 // For problems 4-5 use the following lines of code:
 var arr = [10,20,30,40,50,60]
@@ -82,8 +80,6 @@ for (i = 0; i < family.length; i++) {
   console.log(family[i])
 }
 
-
-
 ////////// PROBLEM 7 //////////
 
 // Do not edit the code below.
@@ -102,7 +98,6 @@ for (i = 0; i < nums.length; i++) {
 }
 
 console.log(evensArr)
-
 
 ////////// PROBLEM 8 //////////
 
@@ -126,7 +121,6 @@ if (score >= 90) {
   console.log("F")
 }
 
-
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 9 //////////
@@ -145,11 +139,7 @@ console.log (changeMyMind)
 
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
-//
 console.log(!(changeMyMind))
-
-
-
 
 ////////// PROBLEM 10 //////////
 
@@ -165,11 +155,6 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 let somenum = myFavoriteNumbers [4]
 console.log (somenum)
 
-
-
-
-
-
 // Subscripting (accessing values using their index) an array can fail. What happens if you subscript to the 7th element, but there are not 7 elements in the array? Let's write some code to check for that. 
 // Use an if statement to check the length of the 'myFavoriteNumbers' array. If it's less than 7, log 'There are not enough elements in this array' to the console. If the length is more than 7, reassign the value of 'someNum' to the value of the 7th element in the array. (Hint: how can you make sure that your code works for exactly 7 elements? What index do you use to get the 7th element?)
 
@@ -177,9 +162,6 @@ console.log (somenum)
 
 
 myFavoriteNumbers.push (7)
-
-
-
 
 if (myFavoriteNumbers.length <= 7){
 
@@ -211,11 +193,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the 'letters' array. Console-log every item in the array.
 */
 
- 
 letters.slice('A').reverse('E')
   .forEach (function(item) {
     console.log(item);
 });
+
 ////////// Advanced Problems //////////
 
 ////////// PROBLEM 13 //////////
@@ -257,10 +239,6 @@ switch(letterGrade) {
     console.log("Not an eligible grade")
 }
 
- 
-
-
-
 ////////// PROBLEM 14 //////////
 /* The famous FizzBuzz, Devmountain style!
   Create a for loop that iterates from 1 to 100. In this for loop, using some conditional logic, if the number your for loop is currently on is divisible by 3, console.log 'Dev'. If the number is divisible by 5, console.log 'mountain'. If the number is divisible by 5 & 3, console.log 'Devmountain'. If the number is not divisible by 5 or 3, console.log the number itself. Hint: Look up the modulo operator.
@@ -299,11 +277,3 @@ for (i = 1; i <= 100; i++) {
     console.log(i)
   }
 }
-
-/*
-Output:
-    John
-    Jane
-    Bob
-    Ana
-*/
